@@ -63,7 +63,7 @@ Scheduler.setTimeout(() -> { System.out.println("World!"); }, 1000);
 |clearTimeout |`id: long`|`void`|Cancels a timed action| - |
 |clearAllTimeout | `void`|`void`|Clear all timeouts| - |
 |clearAllIntervals | `void`|`void`|Clear all intervals| - |
-|setTimeoutToRoutine|`routine: Routine, delay: long`|`long`|Runs a routine within a timeout. If the routine does not end on time, an interrupt signal will be sent to it| - |
+|setTimeoutToRoutine|`routine: Routine, delay: long`|`boolean`|Runs a routine within a timeout. If the routine does not end on time, an interrupt signal will be sent to it| - |
 
 ## 🚩 Changelog
 Details about each version are documented in the [releases section](https://github.com/williamniemiec/wniemiec-task-java/scheduler/releases).

@@ -56,7 +56,7 @@ Scheduler.setTimeout(() -> { System.out.println("World!"); }, 1000);
 
 ## 📖 Documentation
 |        Property        |Parameter type|Return type|Description|Default parameter value|
-|----------------|-------------------------------|-----------------------------|--------|
+|----------------|-------------------------------|--|---------------------------|--------|
 |setTimeout |`routine: Routine, delay: long`|`long`|Sets a timer which executes a routine once the timer expires| - |
 |setInterval |`routine: Routine, delay: long`|`long`|Repeatedly calls a routine with a fixed time delay between each call| - |
 |clearInterval |`id: long`|`void`|Cancels a timed, repeating action| - |
